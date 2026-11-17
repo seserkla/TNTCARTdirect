@@ -13,7 +13,7 @@ jobs:
           distribution: 'temurin'
       - name: Build
         run: chmod +x gradlew && ./gradlew build
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: tntcart-mod
           path: build/libs/*.jar
