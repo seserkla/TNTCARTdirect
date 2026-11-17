@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "tntcart",
+  "version": "1.0.0",
+  "name": "TNT Cart Dump",
+  "entrypoints": {
+    "main": ["com.tntcart.TntCartDump"],
+    "client": ["com.tntcart.TntCartDumpClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric-api": "*",
+    "minecraft": "1.20.1"
+  }
+}
